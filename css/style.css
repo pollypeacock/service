@@ -1,0 +1,149 @@
+body{
+
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+.navbar-default .navbar-nav > li > a{
+
+	color: #666666;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.navbar-nav > li.active-link > a {
+	color: #0B2F64;
+	border-bottom: 1px solid #003366;
+}
+ .navbar-nav > li > a:hover{
+	color: #0B2F64;
+	border-bottom: 1px solid #003366;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	
+}
+@media only screen and (max-width: 992px) {
+	
+}
+@media only screen and (max-width: 767px) {
+	
+}
+@media only screen and (max-width: 480px) {
+}
+
+header {
+	margin: 50px 0 20px;
+
+}
+.menu{
+	background-color: #fefefe;
+	padding: 15px 0;
+	border-color: #003366;
+	border-right: 0px;
+	border-left: 0px;
+}
+.navbar-brand img{
+	position: relative;
+	top: -30px;
+}
+.content{
+	font-family: 'Play', sans-serif;
+
+}
+
+.card{
+	padding-top: 10px;
+	padding-bottom: 3px;
+
+}
+
+
+
+.slogan{
+	margin: 20px 0 20px;
+}
+h1{
+	font-family: 'Play', sans-serif;
+	text-align: center;
+	color: #051052;
+}
+.service{
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.advantage{
+	margin-top: 30px;
+}
+
+.mark{
+	display:block; 
+	margin:0 auto;
+}
+.marks{
+	font-size: 20px;
+	text-align: center;
+}
+
+footer .container{
+	border-top:30px;
+}
+
+footer .navbar-nav{
+	float: right;
+	padding: 20px 0 20px;
+	border:30px;
+	
+}
+footer .navbar-nav>li>a{
+	color: #666666;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+footer .navbar-nav>li.active-link>a{
+	color: #0B2F64;
+
+	}
+	footer .navbar-nav>li>a:hover{
+		color: #0B2F64;
+		border-bottom: 1px solid #0B2F64;
+		}
+footer  ul{
+	list-style-type: none;
+}
+
+
+.slider-image{
+	position: relative;
+	z-index: 10;
+
+}
+
+#right{
+	 position: relative;
+	 z-index: 99999;
+	 height: 50px;
+	 float: right;
+	 top: 360px;
+ }
+
+#left{
+	position: relative;
+	z-index: 99999;
+	height: 50px;
+	float: left;
+	top: 360px;
+}
